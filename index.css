@@ -1,9 +1,10 @@
 *{
   margin: 0;
 }
-/*html{
+body{
+  overflow-x: hidden;
+} 
 
-}*/
 body::-webkit-scrollbar-thumb{
   background-color: rgba(23,23,23, 0.5);
   border-radius: 20px;
@@ -171,6 +172,7 @@ body::-webkit-scrollbar-track {
   display: flex;
   justify-content: end;
   align-items: center;
+  position: relative;
 
 }
 .direita>.box-menu-dir>.box-section-dir{
@@ -178,8 +180,12 @@ body::-webkit-scrollbar-track {
   width: 60%;
   height: 40vh;
   border-radius: 15px 0px 0px 15px;
+  position: absolute;
+  left: 450px;
 }
-
+.direita>.box-menu-dir>.box-section-dir:hover{
+  left: 215px;
+}
 .container2{
   width: 100%;
   height: 100vh;
