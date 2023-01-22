@@ -176,7 +176,7 @@ body::-webkit-scrollbar-track {
 .direita>.box-menu-dir>.box-section-dir{
   background-color: rgba(63, 63, 63, 0.3);
   width: 60%;
-  height: 30vh;
+  height: 40vh;
   border-radius: 15px 0px 0px 15px;
 }
 
@@ -186,7 +186,25 @@ body::-webkit-scrollbar-track {
   background-color: rgb(132, 0, 255);
 }
 
-/*TESTE ::BEFORE AND ::AFTER*/
+
+.box-menu-dir>.box-section-dir>.figure-music{
+  background-color: gold;
+  width: 100%;
+  height: 80%;
+}
+.box-menu-dir>.box-section-dir>.figure-music>.pic-music{
+  width: 100%;
+  height: 100%;
+}
+.box-menu-dir>.box-section-dir>#music{
+  width: 100%;
+  height: 3vh;
+}
+.box-menu-dir>.box-section-dir>.section-music{
+  display: flex;
+  justify-content: center;
+}
+/*TESTE ::BEFORE AND ::AFTER
 .section-esq>p::before{
   content:vel ipsum nulla vitae ad hic;
   background-color: aqua;
@@ -197,4 +215,4 @@ body::-webkit-scrollbar-track {
   background-color: red;
   width: 100%;
   height: 40vh;
-}
+}*/
